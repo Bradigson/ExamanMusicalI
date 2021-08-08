@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Examen Musical II</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="icon"  href="imgs/music.svg">
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        
+
+        <div class="container">
+            <div class="content1">
+                <img src="imgs/graduates.svg" id="img1">
+                <form action="" class="form-group" name="personaldatos" id="personal-datos">
+                        <h1 class="text-center text-white">Examen Musical<br>
+                            Profe: <span>Bradigson Nuñez</span></h1><br>
+                        <input type="text" class="form-control" placeholder="Nombre" id="name" data-toggle="tooltip" title="introduzca su nombre aca, sin numeros por favor"><span id="spanname1"><i class='bx bxs-x-circle'></i></span>
+                        <input type="text" class="form-control" placeholder="Instrumento" id="instrumento" data-toggle="tooltip" title="Introduzca el nombre de su instrumento aca, sin numeros por favor"><span id="spanname2"><i class='bx bxs-x-circle'></i></span>
+                        <input type="password" class="form-control" placeholder="Password" id="password" data-toggle="tooltip" title="Instroduzca su contraseña, sin letras por favor"><span id="spanname3"><i class='bx bxs-x-circle'></i></span>
+                        <button class="btn btn-primary" id="boton1">Empezar Examen</button>
+    
+                    </form>
+                    <div id="info">
+                        <h1 class="text-center text-white" id="info__title">Examen Musical<br>
+                            Profe: <span>Bradigson Nuñez</span></h1>
+                        
+                        <div class="infot__content">
+                            <h2 class="text-center" id="info__h2">Bienvenido/a</h2>
+                            <span id="nombre"></span><br>
+                            <span id="instrument"></span><br>
+                            <span id="nota"></span>
+                        </div>
+                    </div>
+            </div>
+
+            <form action="" class="form-group" name="examen" id="examen">
+                <div id="examcaj1">
+                 <p><h2 id="h2">1. Escriba la escala menor natural "Relativa" F#m</h2></p>
+                 <p> A. <input type="text" class="" name="exa1" value="" data-toggle="tooltip" title="Aca coloque la escala corespondiente. eje: la, do, re etc." id="exam1"> </p>
+                </div>
+ 
+                <div id="examcaj1">
+                    <p><h2 id="h2">2.Una escala menor natural se obtiene de una escala:</h2></p>
+                    <p><input type="radio" name="exa2" value="a"> A. Escala Menor Melodica</p>
+                    <p><input type="radio" name="exa2" value="b"> B. Escala Menor Naturar</p>
+                    <p><input type="radio" name="exa2" value="c"> C. Escala Mayor</p>
+                    <p><input type="radio" name="exa2" value="d"> D. Un Acorde</p>
+                </div>
+ 
+                <div id="examcaj1">
+                    <p><h2 id="h2">3.¿La esccala menor armonica es aquella que se obtiene alterando la 5ta nota de una esala menor natural?</h2></p>
+                    <p><input type="radio" name="exa3" value="true"> A. Verdadero</p>
+                    <p><input type="radio" name="exa3" value="false"> B. Falso</p>
+                </div>
+ 
+                <div id="examcaj1">
+                    <p><h2 id="h2">4.Complete la siguiente escala menor natural</h2></p>
+                    <p>si do# re mi <input type="text" name="exa4" value="" id="exam1"> sol la si</p>
+                </div>
+                <div id="examcaj1">
+                    <p><h2 id="h2">5.La siguient escala "do# re# mi fa# sol # la si do#" es:</h2></p>
+                    <p><input type="radio" name="exa5" value="a"> A. Menor Melodica</p>
+                    <p><input type="radio" name="exa5" value="b"> B. Menor Disminuida</p>
+                    <p><input type="radio" name="exa5" value="c"> C. Menor Natural</p>
+                    <p><input type="radio" name="exa5" value="d"> D. Menor Armonia</p>
+                </div>
+ 
+                <div id="examcaj1">
+                    <p><h2 id="h2">6.En esta escala menor armonica "re mi fa# sol la sib do# re" que nota no es la corecta.</h2></p>
+                    <p><input type="radio" name="exa6" value="1"> 1</p>
+                    <p><input type="radio" name="exa6" value="2"> 2</p>
+                    <p><input type="radio" name="exa6" value="3"> 3</p>
+                    <p><input type="radio" name="exa6" value="4"> 4</p>
+                    <p><input type="radio" name="exa6" value="5"> 5</p>
+                    <p><input type="radio" name="exa6" value="6"> 6</p>
+                    <p><input type="radio" name="exa6" value="7"> 7</p>
+                </div>
+ 
+                <div id="examcaj1">
+                    <p><h2 id="h2">7.¿El cifrado representa los acordes musicales?</h2></p>
+                    <p><input type="radio" name="exa7" value="true"> A. Verdadero</p>
+                    <p><input type="radio" name="exa7" value="false"> B. Falso</p>
+                </div>
+ 
+                <div id="examcaj1">
+                    <p><h2 id="h2">8.¿Que es una escala musical?</h2></p>
+                    <p><input type="radio" name="exa8" value="a"> A. La representacion de las notas musicales</p>
+                    <p><input type="radio" name="exa8" value="b"> B. La sucesión de 8 sonidos</p>
+                    <p><input type="radio" name="exa8" value="c"> C. Una escala musical </p>
+                    <p><input type="radio" name="exa8" value="d"> D. La sucesión de tres sonidos </p>
+                </div>
+ 
+                <div id="examcaj1">
+                    <p><h2 id="h2">9.¿Qué distacia se puede observar en la imagen?</h2></p>
+                    <img src="imgs/images.jfif" alt="something went wrong" id="imexam">
+                    <p><input type="radio" name="exa9" value="a"> A. Un tono</p>
+                    <p><input type="radio" name="exa9" value="b"> B. Dos semitonos</p>
+                    <p><input type="radio" name="exa9" value="c"> C. Dos tonos</p>
+                    <p><input type="radio" name="exa9" value="d"> D. Un semitono</p>
+                </div>
+ 
+                <div id="examcaj1">
+                    <p><h2 id="h2">10.¿El simbolo que representa un bemol es:</h2></p>
+                    <p><input type="radio" name="exa10" value="a"> A. %</p>
+                    <p><input type="radio" name="exa10" value="b"> B. #</p>
+                    <p><input type="radio" name="exa10" value="c"> C. @</p>
+                    <p><input type="radio" name="exa10" value="d"> D. b</p>
+                </div>
+                <br>
+                <button class="btn btn-success" id="buttonformII">Terminar y Enviar</button>
+            </form>
+ 
+         
+            <div class="bg-danger" id="r1"><span><h3 id="resultado1"></h3></span></div>
+         
+            <div class="bg-success" id="r2"><span><h3 id="resultado2"></h3></span></div>
+        </div>
+        
+
+
+        <script src="js/app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
